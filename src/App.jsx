@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import Header from "./common/Header";
 import Dashboard from "./layout/Dashboard";
 import SearchSuggestions from "./components/SearchSuggestions";
+import StarRating from "./components/StarRating";
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
       {
         path: "",
         Component: SearchSuggestions,
+      },
+      {
+        path: "star-rating",
+        Component: StarRating,
       },
     ],
   },
