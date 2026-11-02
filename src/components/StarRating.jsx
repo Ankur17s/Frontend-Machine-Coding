@@ -12,6 +12,7 @@ const StarRating = () => {
       <div style={{ marginTop: 20 }}>
         {stars.map((star) => (
           <span
+            key={star}
             style={{
               fontSize: 42,
               margin: 4,
@@ -24,7 +25,9 @@ const StarRating = () => {
           </span>
         ))}
       </div>
-      <button onClick={() => setRatings(0)} style={{padding: '5px 10px'}}>Reset</button>
+      <button onClick={() => setRatings(0)} style={{ padding: "5px 10px" }}>
+        Reset
+      </button>
     </div>
   );
 };

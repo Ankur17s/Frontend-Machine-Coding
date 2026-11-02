@@ -12,8 +12,9 @@ const Pagination = () => {
 
   return (
     <div>
+      <h2>Pagination</h2>
       {visibleList.map((item) => (
-        <div style={{ margin: 5 }}>{item}</div>
+        <div key={item} style={{ margin: 5 }}>{item}</div>
       ))}
       <div >
         <button

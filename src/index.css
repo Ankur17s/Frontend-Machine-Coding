@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  text-align: left;
+}
+
 .header span:hover {
     color: blue;
 }
