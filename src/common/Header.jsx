@@ -11,6 +11,11 @@ const routes = [
     name: "Star Rating",
     path: "/star-rating",
   },
+   {
+    id: 2,
+    name: "Pagination",
+    path: "/pagination",
+  },
 ];
 
 const Header = () => {

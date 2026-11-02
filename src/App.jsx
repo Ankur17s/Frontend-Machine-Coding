@@ -4,6 +4,7 @@ import Header from "./common/Header";
 import Dashboard from "./layout/Dashboard";
 import SearchSuggestions from "./components/SearchSuggestions";
 import StarRating from "./components/StarRating";
+import Pagination from "./components/Pagination";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "star-rating",
         Component: StarRating,
+      },
+      {
+        path: "pagination",
+        Component: Pagination,
       },
     ],
   },
