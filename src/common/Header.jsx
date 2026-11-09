@@ -27,6 +27,11 @@ const routes = [
     name: "Image Slider",
     path: "/image-slider",
   },
+  {
+    id: 6,
+    name: "Otp Input",
+    path: "/opt-input",
+  },
 ];
 
 const Header = () => {

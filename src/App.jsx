@@ -1,12 +1,11 @@
-import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Header from "./common/Header";
 import Dashboard from "./layout/Dashboard";
 import SearchSuggestions from "./components/SearchSuggestions";
 import StarRating from "./components/StarRating";
 import Pagination from "./components/Pagination";
 import DataTable from "./components/DataTable";
 import ImageSlider from "./components/ImageSlider";
+import OtpInput from "./components/OtpInput";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "image-slider",
         Component: ImageSlider,
+      },
+      {
+        path: "opt-input",
+        Component: OtpInput,
       },
     ],
   },
