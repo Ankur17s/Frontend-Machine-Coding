@@ -6,6 +6,7 @@ import SearchSuggestions from "./components/SearchSuggestions";
 import StarRating from "./components/StarRating";
 import Pagination from "./components/Pagination";
 import DataTable from "./components/DataTable";
+import ImageSlider from "./components/ImageSlider";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "data-table",
         Component: DataTable,
+      },
+      {
+        path: "image-slider",
+        Component: ImageSlider,
       },
     ],
   },

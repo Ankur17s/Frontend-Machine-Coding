@@ -22,6 +22,11 @@ const routes = [
     name: "Data Table",
     path: "/data-table",
   },
+  {
+    id: 5,
+    name: "Image Slider",
+    path: "/image-slider",
+  },
 ];
 
 const Header = () => {
@@ -46,7 +51,7 @@ const Header = () => {
           <span
             style={{
               cursor: "pointer",
-              color: location.pathname === route.path && 'blue',
+              color: location.pathname === route.path && "blue",
             }}
           >
             {route.name}
