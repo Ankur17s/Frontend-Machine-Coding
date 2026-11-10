@@ -32,6 +32,11 @@ const routes = [
     name: "Otp Input",
     path: "/opt-input",
   },
+  {
+    id: 7,
+    name: "TicTacToe",
+    path: "/tictactoe",
+  },
 ];
 
 const Header = () => {

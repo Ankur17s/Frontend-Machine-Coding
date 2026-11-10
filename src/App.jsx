@@ -6,6 +6,7 @@ import Pagination from "./components/Pagination";
 import DataTable from "./components/DataTable";
 import ImageSlider from "./components/ImageSlider";
 import OtpInput from "./components/OtpInput";
+import TicTacToe from "./components/TicTacToe";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "opt-input",
         Component: OtpInput,
+      },
+      {
+        path: "tictactoe",
+        Component: TicTacToe,
       },
     ],
   },
