@@ -7,6 +7,7 @@ import DataTable from "./components/DataTable";
 import ImageSlider from "./components/ImageSlider";
 import OtpInput from "./components/OtpInput";
 import TicTacToe from "./components/TicTacToe";
+import MemoryGame from "./components/MemoryGame";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "tictactoe",
         Component: TicTacToe,
+      },
+      {
+        path: "memory-game",
+        Component: MemoryGame,
       },
     ],
   },

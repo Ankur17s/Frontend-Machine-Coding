@@ -37,6 +37,11 @@ const routes = [
     name: "TicTacToe",
     path: "/tictactoe",
   },
+   {
+    id: 8,
+    name: "Memory Game",
+    path: "/memory-game",
+  },
 ];
 
 const Header = () => {

@@ -72,7 +72,6 @@ const TicTacToe = () => {
       {winner === true && <p>Player {!isXTurn ? "X" : "O"} is Winner 🏆</p>}
 
       <button
-        disabled={!winner}
         onClick={() => {
           setBoard(Array(9).fill(null));
           setIsXTurn(true);
