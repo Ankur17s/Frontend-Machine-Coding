@@ -47,6 +47,11 @@ const routes = [
     name: "Progress Bar",
     path: "/progress-bar",
   },
+  {
+    id: 10,
+    name: "Infinite Scroll",
+    path: "/infinite-scroll",
+  },
 ];
 
 const Header = () => {

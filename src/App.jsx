@@ -9,6 +9,7 @@ import OtpInput from "./components/OtpInput";
 import TicTacToe from "./components/TicTacToe";
 import MemoryGame from "./components/MemoryGame";
 import ProgressBar from "./components/ProgressBar";
+import InfiniteScroll from "./components/InfiniteScroll";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "progress-bar",
         Component: ProgressBar,
+      },
+      {
+        path: "infinite-scroll",
+        Component: InfiniteScroll,
       },
     ],
   },
