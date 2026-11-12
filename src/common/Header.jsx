@@ -37,10 +37,15 @@ const routes = [
     name: "TicTacToe",
     path: "/tictactoe",
   },
-   {
+  {
     id: 8,
     name: "Memory Game",
     path: "/memory-game",
+  },
+  {
+    id: 9,
+    name: "Progress Bar",
+    path: "/progress-bar",
   },
 ];
 

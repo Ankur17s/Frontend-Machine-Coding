@@ -8,6 +8,7 @@ import ImageSlider from "./components/ImageSlider";
 import OtpInput from "./components/OtpInput";
 import TicTacToe from "./components/TicTacToe";
 import MemoryGame from "./components/MemoryGame";
+import ProgressBar from "./components/ProgressBar";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "memory-game",
         Component: MemoryGame,
+      },
+      {
+        path: "progress-bar",
+        Component: ProgressBar,
       },
     ],
   },
